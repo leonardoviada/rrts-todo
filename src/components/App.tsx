@@ -14,7 +14,9 @@ class _App extends React.Component<AppProps> {
   render() {
     return (
       <div>
+        <small>Leonardo Viada 2020, DevOps Testing Client</small>
         <h1>ToDos!</h1>
+        <p>Click on a todo to delete it. Fake API running, edits are not effective.</p>
         <button onClick={ this.handleFetch }>Fetch ToDos</button>
         { this.renderToDoList() }
       </div>
